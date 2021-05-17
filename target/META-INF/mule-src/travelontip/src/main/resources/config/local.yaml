@@ -1,0 +1,5 @@
+http:
+  listner:
+    host: "local.host"
+    port: "9081"
+    path: "/GetRoutes"
