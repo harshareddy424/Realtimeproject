@@ -1,5 +1,11 @@
 http:
   listner:
-    host: "local.host"
+    host: "localhost"
     port: "9081"
-    path: "/GetRoutes"
+    path: "/travelontip/{serviceType}"
+db:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "mysql"
+  database: "testdatabase"   

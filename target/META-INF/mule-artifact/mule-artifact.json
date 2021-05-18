@@ -9,12 +9,13 @@
   "redeploymentEnabled": true,
   "name": "com.mycompany:travelontip:1.0.0-SNAPSHOT",
   "minMuleVersion": "4.3.0",
-  "requiredProduct": "MULE",
+  "requiredProduct": "MULE_EE",
   "classLoaderModelLoaderDescriptor": {
     "id": "mule",
     "attributes": {
       "exportedPackages": [],
       "exportedResources": [
+        "application-types.xml",
         "config/dev.yaml",
         "config/local.yaml",
         "config/ppe.yaml",
